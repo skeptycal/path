@@ -1,0 +1,7 @@
+package shpath // import "github.com/skeptycal/goutil/path"
+
+const NL = "\n" ...
+func GetEnvValue(key string) (string, error)
+func IsDir(s string) bool
+func IsRegular(s string) bool
+type ShPath []string
